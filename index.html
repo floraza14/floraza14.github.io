@@ -120,7 +120,7 @@
     .collage-cell { overflow:hidden; position:relative; }
     .collage-cell::after { content:''; position:absolute; inset:0; background:linear-gradient(to bottom,transparent 50%,rgba(28,27,34,0.2)); pointer-events:none; }
     .collage-wide { grid-column:1/-1; }
-    .collage-img { width:100%; height:100%; object-fit:cover; object-position:center top; display:block; transition:transform 0.4s ease,filter 0.3s; filter:saturate(0.88); }
+    .collage-img { width:100%; height:100%; object-fit:contain; object-position:center top; display:block; transition:transform 0.4s ease,filter 0.3s; filter:saturate(0.88); }
     .collage-img.landscape { object-position:center center; }
     .collage-img:hover { transform:scale(1.05); filter:saturate(1.1); }
 
