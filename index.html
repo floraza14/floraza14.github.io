@@ -408,38 +408,24 @@
   </section>
 
 <!-- CONTACTO -->
-  <section class="contact" id="contacto" aria-labelledby="contact-title" style="background:var(--red); text-align:center; padding:6rem 4rem;">
-    <p class="section-label" aria-hidden="true" style="color:rgba(255,255,255,0.85); justify-content:center;">Contacto</p>
-    <h2 class="contact-heading" id="contact-title" style="font-family:'Playfair Display',serif; font-size:clamp(3.5rem,7vw,7rem); color:white; margin-bottom:1rem; letter-spacing:-0.02em; line-height:1;">¿Charlamos?</h2>
-    <p class="contact-tagline" style="color:rgba(255,255,255,0.85); font-size:1rem; max-width:640px; margin:0 auto 3rem; font-weight:300;">
-      Estoy abierta a proyectos, colaboraciones, mentorías y nuevas conversaciones.
-    </p>
-    <div style="display:flex; gap:1.5rem; justify-content:center; flex-wrap:wrap;">
-      <a href="/cdn-cgi/l/email-protection#ff9993908d9a919c969ed19e859ebf98929e9693d19c9092" style="display:flex; align-items:center; gap:1rem; padding:0.9rem 2rem; background:rgba(255,255,255,0.15); border:1.5px solid rgba(255,255,255,0.5); border-radius:10px; text-decoration:none; color:white; font-family:'DM Sans',sans-serif; font-size:0.78rem; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; min-width:180px; justify-content:center; transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.25)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(0)'">
-        <svg width="18" height="18" fill="none" stroke="white" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
-        Email
-      </a>
-      <a href="https://www.linkedin.com/in/florenciaaza/" target="_blank" rel="noopener noreferrer" style="display:flex; align-items:center; gap:1rem; padding:0.9rem 2rem; background:rgba(255,255,255,0.15); border:1.5px solid rgba(255,255,255,0.5); border-radius:10px; text-decoration:none; color:white; font-family:'DM Sans',sans-serif; font-size:0.78rem; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; min-width:180px; justify-content:center; transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.25)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(0)'">
-        <svg width="18" height="18" fill="white" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        LinkedIn
-      </a>
-    </div>
+  <section class="contact" id="contacto" aria-labelledby="contact-title">
+    <p class="section-label" aria-hidden="true">Contacto</p>
+    <h2 class="contact-heading" id="contact-title">¿Charlamos?</h2>
+    <p class="contact-tagline">Estoy abierta a proyectos, colaboraciones, mentorías y nuevas conversaciones.</p>
   </section>
 
   </main>
 
-  <footer role="contentinfo">
-    <span class="footer-name">Florencia Aza</span>
-    <span>© 2025 · floraza.com.ar</span>
-    <span>Hecho con ♥ en Buenos Aires</span>
-  </footer>
-
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-    const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('visible');
+  <!-- BOTONES CONTACTO -->
+  <section style="background:var(--red); padding:0 4rem 4rem; display:flex; gap:1.5rem; justify-content:center; flex-wrap:wrap;">
+    <a href="mailto:florencia.aza@gmail.com" style="display:flex; align-items:center; gap:1rem; padding:0.8rem 1.6rem; background:rgba(255,255,255,0.15); border:1.5px solid rgba(255,255,255,0.4); border-radius:8px; text-decoration:none; color:white; font-family:'DM Sans',sans-serif; font-size:0.78rem; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; min-width:160px; justify-content:center; transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.25)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(0)'">
+      <svg width="18" height="18" fill="none" stroke="white" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+      Email
+    </a>
+    <a href="https://www.linkedin.com/in/florenciaaza/" target="_blank" rel="noopener noreferrer" style="display:flex; align-items:center; gap:1rem; padding:0.8rem 1.6rem; background:rgba(255,255,255,0.15); border:1.5px solid rgba(255,255,255,0.4); border-radius:8px; text-decoration:none; color:white; font-family:'DM Sans',sans-serif; font-size:0.78rem; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; min-width:160px; justify-content:center; transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.25)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(0)'">
+      <svg width="18" height="18" fill="white" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      LinkedIn
+    </a>
   </section>
 
   <footer role="contentinfo">
